@@ -16,4 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('record', function(){
+	return view('record');
+}); 
+Route::post('record/store', 'RecordController@record')->name('record.store');
 Route::get('send-mail', 'SendMailController@sendMail')->name('send-mail');
