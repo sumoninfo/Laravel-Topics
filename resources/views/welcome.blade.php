@@ -82,10 +82,7 @@
 
     <div class="content">
         <div class="title m-b-md">
-            Laravel 7 Email Send Example | Send Email Using Markdown Templates
-        </div>
-        <div class="title">
-            Devs Code
+            Laravel 7
         </div>
 
     </div>
